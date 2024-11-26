@@ -47,8 +47,8 @@ while attemps < 100:
     username = input('\033[33mEnter your username: \033[0m')
     password = input('\033[94mEnter your password: \033[0m')
 
-    if username == 'n0lk0ma' and password == 'n0lk0ma':
-        print('Hei...!! kamu berhasil login di BLACKPANTHER!!')
+    if username == 'k0l4pz' and password == 'k0l4pz':
+        print('welcome to zona attack!!')
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
