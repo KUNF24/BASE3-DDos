@@ -87,4 +87,3 @@ def run():
 		except:
 			print("\033[33m[\033[95m!\033[33m] Error!")
 
-def run2():
