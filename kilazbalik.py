@@ -10,7 +10,7 @@ os.system("clear")
 
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
+bytes = random._urandom(1024)
 #############
 
 class bcolors:
@@ -80,7 +80,6 @@ print("\033[92m               ⟩⟩  G0....!! \033[0m "),
 time.sleep(5),
 
 def run():
-	data = random._urandom(1024)
 	i = random.choice(("[+]"))
 	while True:
 		try:
