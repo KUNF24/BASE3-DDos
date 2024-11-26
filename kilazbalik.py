@@ -23,6 +23,10 @@ class bcolors:
     UNDERLINE = '\033[4m'
     ZH = '\033[97m'
 
+##############
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+bytes = random._urandom(1490)
+#############
 
 attemps = 0
 os.system("clear")
