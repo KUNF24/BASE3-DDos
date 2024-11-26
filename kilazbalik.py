@@ -90,6 +90,6 @@ while True:
      if port == 65534:
        port = 1
 
- except:
+except:
      print("\033[33m[\033[95m!\033[33m] Error!")
 			
