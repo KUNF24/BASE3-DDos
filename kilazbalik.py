@@ -83,9 +83,8 @@ while True:
      sent = sent + 1
      port = port + 1
      print(f"💥\033[97m[\033[32mKILAZ-BALIK\033[97m]  \033[32mMengakses  \033[92mWebs::::.... " +ip+ "\033[0m" )
-     print(f"💥\033[96m[\033[91mKILAZ-BALIK\033[96m]  \033[95mMengirim  \033[96mPacket:::.... " +ip+ "\033[0m" )
+     print(f"💥\033[96m[\033[93mKILAZ-BALIK\033[96m]  \033[95mMengirim  \033[96mPacket:::.... " +ip+ "\033[0m" )
      print(f"💥\033[95m[\033[96mKILAZ-BALIK\033[95m]  \033[94mMengikis  \033[32mThread:::.... " +ip+ "\033[0m" )
-     print(f"💥\033[91m[\033[94mKILAZ-BALIK\033[91m]  \033[97mMembanjiri \033[1mSitus::::.... " +ip+ "\033[0m" )
-     pr
+     print(f"💥\033[91m[\033[94mKILAZ-BALIK\033[91m]  \033[97mMelumpuhkan \033[1mTarget:::... " +ip+ "\033[0m" )
      if port == 65534:
        port = 1
