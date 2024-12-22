@@ -50,7 +50,7 @@ while attemps < 100:
     username = input('\033[33mEnter your username: \033[0m')
     password = input('\033[94mEnter your password: \033[0m')
 
-    if username == 'kf99' and password == 'kp99':
+    if username == 'kf99' and password == 'kf99':
         print('\033[32m***WELCOME TO ZONA ATTACK!!***\033[0m')
         break
     else:
